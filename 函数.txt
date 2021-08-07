@@ -1,0 +1,27 @@
+def:
+	
+	return
+
+#全局变量和局部变量
+
+
+函数默认值问题
+
+def tianjia(a,data=[])
+	data.append(a)
+	return data
+
+为防止连续添加，保证每次只添加一个值，不妨将data默认值设为None，这样每次调用函数data的初始值都是None，
+那么回调data得到的就是每次新添加的值
+
+#关键字参数 定义fun(a,b) 使用的时候对于参数，如果是强制关键字函数，那么调用需要添加“fun(a,key=value)”等等
+
+#函数重载 python不具备
+
+#高阶函数
+
+	map（）高阶函数，比如map（str,lst）lst是一个列表变量，str是一个方法，负责把列表变量转换成字符串类型。map作为高阶函数，把函数和列表作用在一起，并返回str（lst）得到的结果
+
+#文档字符串
+
+if __name__=="__main__"

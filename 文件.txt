@@ -1,0 +1,10 @@
+open(file_name)
+
+fobj.close() #不要忘了关闭文件，不然占用内存
+
+file_name.read()
+
+
+sys.argv[i] i=0,文件自身，i=1，2，3，4.。。。文件外部添加的参数的索引
+
+with自带关闭文件
